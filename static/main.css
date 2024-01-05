@@ -1,0 +1,36 @@
+body {
+    background-color: bisque;
+    font-size: 24px;
+}
+
+main, header, footer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 2px solid blue;
+    border-collapse: collapse;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav-link {
+    display: block;
+    margin: 20px 0;
+    text-decoration: none;
+    color: darkslateblue
+}
+
+.nav-link:visited {
+    text-decoration: none;
+    color: darkslateblue;
+}
